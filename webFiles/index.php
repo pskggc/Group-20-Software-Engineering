@@ -9,7 +9,7 @@
 <!-- Created by Professor Wergeles for CS2830 at the University of Missouri -->
 <html lang="en">
 <head>
-	<title>Patrick Kunza</title>
+	<title>RJI Deep Learning</title>
     <meta charset="utf-8">
     <link href="jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <script src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
@@ -47,6 +47,7 @@
             <div class="stack">
                 <input type="submit" class="submit" value="Submit">
                 <input type="submit" class="submit" value="Sign up">
+                
             </div>
         </form>
     </div>
