@@ -1,0 +1,104 @@
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#wrap {
+    float: left;
+    padding: 0px;
+}
+
+#css, #html {
+    float: auto;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    break-after: column;
+    margin: 0 auto;
+    border: 2px dashed blue;
+    box-shadow: 10px 3px 10px blue;
+    height: 300px;
+    width: 400px;
+}
+
+#rightText {
+    float: right;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    break-after: column;
+    margin: 0 auto;
+    border: 2px dashed yellowgreen;
+    box-shadow: 10px 3px 10px yellowgreen;
+    height: 675px;
+    width: 600px;
+}
+
+#button {
+    text-align: center;
+    
+}
+
+#wrapper {
+    align-content: center;
+    border: 20px dashed black;
+    color: black;
+    border-radius: 100px; 
+    padding: 20px;
+    margin: 50px auto;
+    width: 1095px;
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+#toggle {
+    background-color: red;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+#clear {
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#launch {
+    border-radius: 20px;
+    font-size: 30px;
+} 
+
+/*This was used from W3Schools.*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 25px;
+}
+
+/*This was used from W3Schools.*/
+li {
+    display: inline;
+    font-size: 30px;
+}
