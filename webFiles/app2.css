@@ -66,6 +66,3 @@ input[type="submit"]:focus
     background: goldenrod;
     transition: 0.2s ease;
 }
-signup-button {
-    text-align: center;
-}

@@ -46,9 +46,8 @@
             
             <div class="stack">
                 <input type="submit" class="submit" value="Submit">
-                <input type="submit" class="submit" value="Sign up">
-                
             </div>
+            <a type="submit" class="signup-button" href="signup.php">Signup</a>
         </form>
     </div>
     <div class="publicInfo">

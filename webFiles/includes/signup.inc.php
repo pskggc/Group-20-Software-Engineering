@@ -27,7 +27,7 @@ if (isset($_POST['signup-submit'])) {
 		exit();
 	}
 	else if ($password !== $password2) {
-		header("Location: ../signup.php?error=passwordcheckusername=".$username."&email=".$email);
+		header("Location: ../signup.php?error=passwordcheck&username=".$username."&email=".$email);
 		exit();
 	}
 	else {
@@ -58,7 +58,7 @@ if (isset($_POST['signup-submit'])) {
 
 				mysqli_stmt_bind_param($stmt, "sssss", $firstname, $lastname, $username, $email, $hashedPwd);
 				mysqli_stmt_execute($stmt);
-				header("Location: ../signup.php?signup=success");
+				header("Location: ../page1.php?signup=success");
 				exit();
 			}
 		}

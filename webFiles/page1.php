@@ -39,10 +39,13 @@
 <body>
     
     <?php include 'nav.config'?>
-
-    <form action="uploads.php" method="POST" enctype="multipart/form-data">
+    <div class="uploadBox">
+        <form action="uploads.php" method="POST" enctype="multipart/form-data">
         <input type="file" name="file">
-        <button type="submit" name="submit">Upload</button>
-    </form>
+        <div class="uploadButton">
+            <button type="submit" name="submit">Upload</button>
+        </div>
+        </form>
+    </div>
 </body>
 </html>
