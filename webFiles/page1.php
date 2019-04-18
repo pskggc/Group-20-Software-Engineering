@@ -3,11 +3,14 @@
 
     //key to prevent URL hacking
 
-    // if a user has logged in, 'username' cookie will set 
-    $username = empty($_COOKIE['username']) ? '' : $_COOKIE['username'];
+    // Every time we want to access $_SESSION, we have to call session_start()
+    if(!session_start()) {
+        header("Location: error.php");
+        exit;
+    }
     
-    // if the cookie isn'there, send them back to the login
-    if(!$username){
+    $loggedIn = empty($_SESSION['loggedin']) ? false : $_SESSION['loggedin'];
+    if (!$loggedIn) {
         header("Location: login.php");
         exit;
     }

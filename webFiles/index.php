@@ -16,6 +16,11 @@
     <script src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet'>
     <link href="app.css" rel="stylesheet" type="text/css">
+    <script>
+        $(function(){
+            $("input[type=submit]").button();
+        });
+    </script>
     
 </head>
 <body id="loginForm">
@@ -47,7 +52,7 @@
             <div class="stack">
                 <input type="submit" class="submit" value="Submit">
             </div>
-            <a type="submit" class="signup-button" href="signup.php">Signup</a>
+            <a type="submit" class="signup-button" href="createUser_form.php">Signup</a>
         </form>
     </div>
     <div class="publicInfo">
