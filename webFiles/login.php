@@ -10,7 +10,7 @@
 //      header("Location: $redirectURL");
 //      exit;
 //  }
-    
+
     // http://us3.php.net/manual/en/function.session-start.php
     if(!session_start()) {
         // If the session couldn't start, present an error
