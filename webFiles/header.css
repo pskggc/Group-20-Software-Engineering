@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+.headerDiv{
+    background-color: dimgrey;
+    padding:15px;
+    width: 100%;
+    box-shadow: 3px 3px 10px gray;
+}
+.signup{
+    position: relative;
+    left: 83%;
+}
+.login{
+    position: relative;
+    left: 80%;
+}
+a{
+    text-decoration: none;
+}
+
