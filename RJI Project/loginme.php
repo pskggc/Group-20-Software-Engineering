@@ -18,7 +18,7 @@
   <h2 class="h2">Login</h2>
 <div>
   
-<form action="login.inc.php" method="post">
+<form action="index.php" method="post">
   
   <div class="container">
     <label for="uname"><b>Username</b></label>
