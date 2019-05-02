@@ -13,7 +13,7 @@
     <span class="logo1">RJI </span><span class="logo2">Project</span>
     <img src="584abf302912007028bd9335.png" alt="">
     <span class="empty"></span>
-    <a class="login" href="login.inc.php">Login</a>
+    <a class="login" href="index.php">Login</a>
     <a class="signup" href="createUser_form.php">SignUp</a>
     </div>
     </header>
