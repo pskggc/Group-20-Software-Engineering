@@ -1,0 +1,257 @@
+/* Created by Professor Wergeles for CS2830 at the University of Missouri */
+/* 
+    name:       Patrick Kunza
+    pawprint:   pskggc
+    Date:       12/6/2018
+*/
+    
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    z-index: 1;
+    padding: 8px;
+    right: 100px;
+    margin: -15px;
+}
+a.signup-button {
+    text-align: center;
+}
+a:hover {
+    background: #d2bdc1;
+    color: black;
+}
+
+div.uploadBox {
+    position: absolute;
+    border-color: black;
+    border: 10px;
+    height: 300px;
+    right: 600px;
+    width: 300px;
+    border-style: solid;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    align-items: center;
+}
+div#tile {
+    width: 100px;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    position: relative;
+    right: 260px;
+    z-index:1;
+}
+h1.ui-widget-welcome {
+    border: 1px solid black;
+    display: block;
+    background: goldenrod url(images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
+    color: white;
+    align-content: center;
+}
+h1.ui-widget-header {
+    border: 1px solid black;
+    display: block;
+    background: goldenrod url(images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
+    color: white;
+    align-content: center;
+    width: 1263px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    right: 334px;
+}
+.submit:hover {
+    background: #d2bdc1;
+    color: black;
+}
+@keyframes bottomMove {
+    from{position: relative;
+    float: left;
+    display: block;
+    width: 250px;
+    right: 250px;
+/*    bottom: -250px;*/
+    z-index: 0;
+    transform: rotate(90deg);}
+    to{position: relative;
+    float: left;
+    display: block;
+    width: 250px;
+    right: 30px;
+/*    bottom: -20px;*/
+    z-index: 0;
+    transform: rotate(90deg);}
+}
+#loginWidget {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+#loginWidget > h1 {
+    margin: 0;
+    padding: 2px;
+    background-color: goldenrod;
+}
+#loginWidget form {
+    background-color: goldenrod;
+    border: 1px solid black;
+    padding: 0.5em 0;
+    border-radius: 0 0 10px 10px;
+}
+#loginWidget form label {
+    width: 95px;
+    text-align: right;
+    display: inline-block;
+}
+#loginWidget div.stack {
+    margin: 1em 0;
+}
+div.ui-state-error {
+    padding: 4px 0;
+}
+div.pageWidget {
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+div.prompt {
+    margin: 0;
+    padding: 2px;
+    background-color: black;
+    color: white;
+}
+/*This was used from W3Schools.*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 23px;
+    background-color: buttonface;
+    position: relative;
+    z-index:0;
+    bottom:155px;
+}
+
+/*This was used from W3Schools.*/
+li {
+    display: inline;
+    font-size: 30px;
+}
+
+div.publicInfo {
+    position: relative;
+    text-align: center;
+    bottom: -70px;
+    font-family: 'Permanent Marker';
+    font-size: 35px;
+    animation: generalInfo;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+a.logout {
+    left: 1200px;
+    text-decoration: none;
+    position: relative;
+    z-index:1;
+    bottom: 128px;
+    width: 80px;
+    color: black;
+    padding: 4px;
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+}
+a.logout:hover {
+    background: #d2bdc1;
+    color: black;
+}
+.homeContent {
+    font-family: 'Permanent Marker';
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    bottom: 125px;
+}
+div.blackLine {
+    background-color: black;
+    position: relative;
+    bottom: 85px;
+    height: 5px;
+    font-size: 5px;
+}
+.first {
+    position:relative;
+    font-family:'Permanent Marker';
+    right:50px;
+    color: black;
+}
+.introAthletics {
+    z-index: 0;
+    position: relative;
+    left: 700px;
+    bottom: 110px;
+    font-family: 'Permanent Marker';
+    font-size: 35px;
+    text-align: left;
+    display: block;
+    width: 550px;
+}
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+#menu, #display {
+    float: left;
+    box-sizing: border-box;
+}
+#menu {
+    width: 600px;
+    list-style: none;
+    padding: 0 20px 0 10px;
+}
+#menu > li {
+    margin: 5px 0;
+    padding: 10px 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 8px;
+}
+#menu > li:hover {
+    background-color: buttonface;
+    cursor: pointer;
+}
+#menu > li > a {
+    text-decoration: none;
+    color: #333;
+}
+#display {
+    width: 80%;
+    cursor: move;
+    border: 2px solid black;
+    padding: 5px 5px 5px 3px;
+    border-radius: 20px;
+    box-shadow: 10px 5px goldenrod;
+}
+.imgPlaceholder {
+    float: left;
+    font-family: 'Permanent Marker'
+    margin-right: 20px;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+.green {
+    background-color: green;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
