@@ -1,0 +1,67 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {
+    border: 3px solid #f1f1f1;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+h2{text-align: center}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: silver;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 12px;
+  box-shadow: 3px 3px 10px gray;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 12px;
+}
+
+span.psw {
+  position: relative;
+  left: 40%;
+  padding-top: 16px;
+}
+
+.signupdiv{
+    padding: 16px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-top:1px solid red;
+}
+a #signup{
+  color: red;
+}
+div.error{
+  background-color: red;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
