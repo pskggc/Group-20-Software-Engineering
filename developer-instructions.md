@@ -31,7 +31,8 @@ By: Patrick Kunza, Ausint Ibeh, Jay Whang
       2b. After entering the correct credentials click the login button to be redirected to the main page.
       
    3. If Users forgeet their password they can click the "Forgot Password?" link.
-      3a. This will redirect the user to the next page where they can enter their email and request to get their password emailed to them.
+   
+      3a. This will redirect the user to the next page where they can enter their email and request to get their password emailed to             them.
       3b. After obtaining the user password go back to the site and enter login credentials and then click the login button.
       3c. After loggining in, the user will be redirected to the main page.
    
