@@ -12,7 +12,7 @@ SPRINT 1,2,3, and 4 WIKI PAGE is located in the wiki doc of this repository.
      1. Click on the Wiki tab located at the top of the screen.
      2. Click on RJI Documentation Sprint 1
      
-##User Intructions
+## User Intructions
   - https://github.com/pskggc/Group-20-Software-Engineering/blob/master/developer-instructions.md
 
 ## Issues to work on
