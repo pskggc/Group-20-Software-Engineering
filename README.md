@@ -3,6 +3,8 @@ Software Engineering 2019 spring semester project.
 
 By: Patrick Kunza, Austin Ibeh and Jay Whang
 
+Application LINK: http://ec2-52-14-244-154.us-east-2.compute.amazonaws.com/RJI%20Project/
+
 RJI Deep Learning technology created to classify an image as good or bad. If the image is GOOD it will be downloaded onto the user's web browser. If the image is BAD it will be discarded from the web application. New features that are still in the development stage is creating a function that can take a folder of multiple images and rate several images at once. When a user uploads a file of images, deep learning will tag each image as good or bad.
 
 SPRINT 1,2,3, and 4 WIKI PAGE is located in the wiki doc of this repository.
