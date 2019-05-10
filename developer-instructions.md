@@ -1,6 +1,8 @@
 # Deep Learning Web Application - Instruction
 By: Patrick Kunza, Ausint Ibeh, Jay Whang
 
+On behalf of my team and I we have created a image classifier application that was created for the sole puropse of image management. Please follow the instructions below to setup and utilize our image classifier.
+
 ## New User Steps
    1. Go to this site: http://ec2-52-14-244-154.us-east-2.compute.amazonaws.com/RJI%20Project/
    
@@ -9,9 +11,7 @@ By: Patrick Kunza, Ausint Ibeh, Jay Whang
    
       2a. Fill in all required fields such as First Name, Last Name, User Name, Email, Password, Confirm Password.
       
-      2b. Users can look over our terms and privacy by clicking the link located above the cancel and signup buttons.
-      ![First Image](Capture3.JPG)
-  
+      ![Fist Image](https://github.com/pskggc/Group-20-Software-Engineering/blob/master/App_Pictures/Capture3.JPG) 
   
    3. After Creating an account with RJI Deep Learning you will be redirected to the main page.
    
@@ -33,6 +33,7 @@ By: Patrick Kunza, Ausint Ibeh, Jay Whang
       
       7b. User will be redirected to the login page.
   
+---
   
 ## Existing User Steps
    1. Go to this site: http://ec2-52-14-244-154.us-east-2.compute.amazonaws.com/RJI%20Project/
@@ -44,15 +45,8 @@ By: Patrick Kunza, Ausint Ibeh, Jay Whang
       
       2b. After entering the correct credentials click the login button to be redirected to the main page.
       
+      ![Second Image](https://github.com/pskggc/Group-20-Software-Engineering/blob/master/App_Pictures/Capture1.JPG)
       
-   3. If Users forgeet their password they can click the "Forgot Password?" link.
-   
-      3a. This will redirect the user to the next page where they can enter their email and request to get their password emailed to             them.
-      
-      3b. After obtaining the user password go back to the site and enter login credentials and then click the login button.
-      
-      3c. After loggining in, the user will be redirected to the main page.
-   
    
    4. On the main page users can use the upload feature located in the middle of the screen.
    
