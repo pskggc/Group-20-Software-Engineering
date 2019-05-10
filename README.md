@@ -11,13 +11,16 @@ SPRINT 1,2,3, and 4 WIKI PAGE is located in the wiki doc of this repository.
      
      1. Click on the Wiki tab located at the top of the screen.
      2. Click on RJI Documentation Sprint 1
+     
+##User Intructions
+  - https://github.com/pskggc/Group-20-Software-Engineering/blob/master/developer-instructions.md
 
 ## Issues to work on
 
 - highest priortiy to lowest priortiy.
-1. Docker image
+1. Tensor Flow Classification
 2. Back-end Image Classification
-3. Rating/Result Box
-4. Web Design
-5. Login Page
-6. Sign-Up Page
+3. Rating/Result Box (Almost Completed)
+4. Web Design (Completed)
+5. Login Page (Completed)
+6. Sign-Up Page (Completed)
