@@ -2,7 +2,7 @@
 By: Patrick Kunza, Ausint Ibeh, Jay Whang
 
 ## New User Steps
-   1. Go to this site: http://ec2-52-14-244-154.us-east-2.compute.amazonaws.com/index.php
+   1. Go to this site: http://ec2-52-14-244-154.us-east-2.compute.amazonaws.com/RJI%20Project/
    
    
    2. Create a user by selecting the SignUp button located in the upper right hand corner or the bottom of the login box.
@@ -10,6 +10,7 @@ By: Patrick Kunza, Ausint Ibeh, Jay Whang
       2a. Fill in all required fields such as First Name, Last Name, User Name, Email, Password, Confirm Password.
       
       2b. Users can look over our terms and privacy by clicking the link located above the cancel and signup buttons.
+      ![First Image](Capture3.JPG)
   
   
    3. After Creating an account with RJI Deep Learning you will be redirected to the main page.
@@ -34,7 +35,7 @@ By: Patrick Kunza, Ausint Ibeh, Jay Whang
   
   
 ## Existing User Steps
-   1. Go to this site: http://ec2-52-14-244-154.us-east-2.compute.amazonaws.com/index.php
+   1. Go to this site: http://ec2-52-14-244-154.us-east-2.compute.amazonaws.com/RJI%20Project/
    
    
    2. Login into RJI Deep Learning by entering in user credentials.
